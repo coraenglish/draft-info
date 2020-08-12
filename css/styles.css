@@ -1,0 +1,46 @@
+.jumbotron {
+  margin-bottom: 0px;
+  background-color: #A2AAAD;
+  color: #024C55;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar {
+  background-color: #024C55;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.nav-item {
+  color: white;
+  background: transparent;
+}
+
+.active, .nav-btn:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.my-img {
+  width: 20vw;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 992px)  {
+  .my-img {
+    width: 80vw !important;
+  }
+}
+
+.col-12 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.row-draftinfo {
+  margin: 0px !important;
+  padding-right: 0px !important;
+}
